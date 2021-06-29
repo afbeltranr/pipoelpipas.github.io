@@ -250,7 +250,7 @@
 <p>Primero cargamos los paquetes <code>usethis</code> y <code>devtools</code> para descargar los paquetes desde github.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(usethis)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(devtools)</span></code></pre></div>
-<p>Luego, usando la funcion <code>install_github()</code> pasando como arentos la dirección del repositorio en el cual está el paquete, y <code>force = TRUE</code> para evitar problemas durante la instalación.</p>
+<p>Luego, usando la funcion <code>install_github()</code> pasando como argumentos la dirección del repositorio en el cual está el paquete, y <code>force = TRUE</code> para evitar problemas durante la instalación.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install_github</span>(<span class="st">&#39;https://github.com/sergmonic/AtomicWeights/&#39;</span>,<span class="at">force =</span> <span class="cn">TRUE</span>)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install_github</span>(<span class="st">&#39;https://github.com/sergmonic/uLPAQ/&#39;</span>,<span class="at">force =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
 <p>Una vez instalados los paquetes, podemos agregarlos al entorno de trabajo utilizando la función <code>library()</code>.</p>
